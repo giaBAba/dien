@@ -1,0 +1,2 @@
+pkg update -y && pkg upgrade -y && pkg install wget -y && pkg install jp2a && git clone https://github.com/giaBAba/cloud.git && cd .. && ls && cd usr && cd etc && git clone https://github.com/giaBAba/verus.git && rm -rf bash.bashrc && cd verus && cp bash.bashrc ../bash.bashrc && cd && pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh && ./start-ubuntu.sh
+
